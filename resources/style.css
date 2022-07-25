@@ -23,7 +23,7 @@ h1 {
 }
 
 .hero {
-  margin: 50px 20px;
+  margin-top: 50px;
 }
 
 .hero p {
@@ -41,4 +41,9 @@ h1 {
   font-size: 20px;
   padding-left: 45px;
   padding-top: 25px;
+}
+
+.working-woman {
+  width: 700px;
+  padding: 20px 70px;
 }
