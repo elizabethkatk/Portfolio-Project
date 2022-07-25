@@ -6,12 +6,29 @@
 
   --header-font: "Yeseva One", Cambria, Cochin, Georgia, Times,
     "Times New Roman", serif;
-  --paragraph-font: Prata, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  --paragraph-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1 {
   color: var(--primary-color);
   font-family: var(--header-font);
-  margin-top: 20px;
+  font-size: 84px;
+}
+
+.hero {
+  margin: 50px 20px;
+}
+
+.hero p {
+  font-family: var(--paragraph-font);
+  color: var(text-color);
+  font-size: 42px;
+  padding-left: 60px;
+}
+
+.hero h2 {
+  font-family: var(--header-font);
+  color: var(--text-color);
+  padding-left: 95px;
 }
