@@ -5,10 +5,8 @@
   --tertiary-color: #faf8d7;
   --text-color: #2f2e41;
 
-  --header-font: "Yeseva One", Cambria, Cochin, Georgia, Times,
-    "Times New Roman", serif;
-  --paragraph-font: Mulish, "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --header-font: "Yeseva One", Georgia, Times, "Times New Roman", serif;
+  --paragraph-font: Mulish, Verdana, sans-serif;
 }
 
 @media (max-width: 990px) {
@@ -23,9 +21,22 @@
   #small-screen-hello {
     font-size: 32px;
   }
+
+  #get-in-touch-button {
+    font-size: 16px;
+  }
+
+  .contact-me-button {
+    text-align: center;
+  }
+
+  #contact-button-small {
+    font-size: 18px;
+    margin: 0;
+  }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 620px) {
   #small-screen-name {
     text-align: center;
     padding: 0;
@@ -45,12 +56,23 @@
     text-align: center;
     padding: 0;
   }
+
+  #small-screen-photo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .experience-buttons {
+    flex-direction: column;
+    margin: 60px;
+  }
 }
 
 body {
   font-family: var(--paragraph-font);
   color: var(--text-color);
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
 }
 
 h1 {
@@ -72,11 +94,14 @@ hr {
   color: var(--tertiary-color);
 }
 
+.main-page {
+  background-color: var(--secondary-color);
+}
+
 .hero {
   margin-top: 40px;
   margin-bottom: 30px;
   padding: 20px;
-  border-radius: 10px;
 }
 
 .hero p {
@@ -136,6 +161,37 @@ hr {
   font-size: 12px;
 }
 
+.content-header {
+  text-transform: lowercase;
+  color: var(--text-color);
+}
+
+.me-photo {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 20px rgb(113, 160, 165, 0.2);
+}
+
+.biography {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.get-in-touch-button {
+  font-size: 28px;
+  margin-left: 700px;
+  padding: 20px 60px;
+  border-radius: 30px;
+  color: var(--text-color);
+}
+
+.experience-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #working-woman {
   height: 400px;
 }
@@ -168,4 +224,22 @@ hr {
   height: 200px;
   display: block;
   margin: 0 auto;
+}
+
+#projects-button {
+  font-size: 36px;
+  padding: 80px 50px;
+  margin-bottom: 30px;
+  background-color: rgba(113, 160, 165, 0.2);
+  color: var(--text-color);
+  font-family: var(--paragraph-font);
+}
+
+#resume-button {
+  font-size: 36px;
+  padding: 80px 50px;
+  margin-bottom: 30px;
+  background-color: rgba(113, 160, 165, 0.2);
+  color: var(--text-color);
+  font-family: var(--paragraph-font);
 }
