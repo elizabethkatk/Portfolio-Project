@@ -11,6 +11,12 @@
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+
 body {
   font-family: var(--paragraph-font);
   color: var(--text-color);
