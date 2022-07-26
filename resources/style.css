@@ -22,33 +22,63 @@ h1 {
   font-size: 84px;
 }
 
-.hero {
-  margin-top: 50px;
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border-radius: 40px;
-  margin-bottom: 30px;
+h4 {
+  text-align: center;
 }
 
-.hero p {
+.heading {
+  margin: 40px;
+  background-color: var(--secondary-color);
+  padding: 60px;
+  border-radius: 40px;
+}
+
+.heading p {
   font-size: 42px;
   padding-left: 40px;
   margin-bottom: 0;
   font-weight: bold;
 }
 
-.hero h2 {
+.heading h2 {
   padding-left: 110px;
   font-size: 36px;
 }
 
-.hero h3 {
+.heading h3 {
   font-size: 20px;
   padding-left: 45px;
   padding-top: 25px;
   line-height: 1.5;
 }
 
-.working-woman {
-  width: 400px;
+.header {
+  padding: 0;
+}
+
+.hero-image {
+  padding-left: 0;
+}
+
+.skills p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#design-woman {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#coding-woman {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#mobile-projects {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
