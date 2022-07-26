@@ -13,7 +13,7 @@
 
 @media (max-width: 900px) {
   .hero {
-    border: none;
+    border: 1px var(--secondary-color) solid;
   }
 
   .hero h1 {
