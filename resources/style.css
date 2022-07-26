@@ -11,12 +11,6 @@
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-@media (max-width: 750px) {
-  .hero {
-    border: 1px var(--secondary-color) solid;
-  }
-}
-
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 56px;
@@ -49,13 +43,12 @@ a {
 }
 
 hr {
-  color: var(--accent-color);
+  color: var(--tertiary-color);
 }
 
 .hero {
   margin-top: 40px;
   margin-bottom: 30px;
-  border: var(--tertiary-color) solid 1px;
   padding: 60px;
   border-radius: 10px;
 }
