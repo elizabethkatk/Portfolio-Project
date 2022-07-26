@@ -11,11 +11,13 @@
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .hero {
     border: 1px var(--secondary-color) solid;
   }
+}
 
+@media (max-width: 900px) {
   .hero h1 {
     font-size: 56px;
   }
