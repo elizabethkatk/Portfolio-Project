@@ -12,8 +12,12 @@
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 72px;
+  .hero h1 {
+    font-size: 64px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
   }
 }
 
