@@ -24,25 +24,65 @@
     <link rel="stylesheet" href="/resources/style.css" />
   </head>
   <body>
+    <nav class="d-flex justify-content-between navbar fixed-top">
+      <a href="/" title="Homepage" class="logo">EK</a>
+      <ul class="my-nav-links">
+        <li class="my-links"><a href="/" class="pages">Home</a></li>
+        <li class="my-links">
+          <a href="/about.html" class="pages" title="About Me">About</a>
+        </li>
+        <li class="my-links">
+          <a href="/work.html" title="Portfolio" class="pages">Work</a>
+        </li>
+        <li class="active my-links">
+          <a href="contact.html" class="pages" title="Contact Page">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="container contact-box">
       <div class="row mt-5">
         <div class="col-md-7">
           <img src="/resources/images/contact.svg" class="contact-woman" />
         </div>
         <div class="col-md-5">
-          <h1>Let's connect!</h1>
+          <h1 class="ps-3 contact-hero">Let's connect!</h1>
           <div class="ways-to-connect">
             <a
               href="mailto:elizabeth.kat.k@gmail.com"
               class="button"
+              title="elizabeth.kat.k@gmail.com"
               id="my-email"
               >Email me</a
             >
 
             <ul class="contact-icons">
-              <li><i class="fa-brands fa-github"></i></li>
-              <li><i class="fa-brands fa-linkedin"></i></li>
-              <li><i class="fa-brands fa-twitter"></i></li>
+              <li>
+                <a
+                  href="https://www.github.com/elizabethkatk"
+                  target="_blank"
+                  class="icon-links"
+                  title="GitHub"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/elizabethkatk"
+                  title="Linked In"
+                  class="icon-links"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/elizabethkking"
+                  target="_blank"
+                  title="Twitter"
+                  class="icon-links"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
             </ul>
           </div>
         </div>

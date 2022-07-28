@@ -193,6 +193,10 @@ nav {
   font-weight: bolder;
 }
 
+.main-page {
+  margin-top: 40px;
+}
+
 .hero {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -244,6 +248,7 @@ nav {
 .button:hover {
   color: var(--priamary-color);
   opacity: 0.6;
+  transition: 100ms ease-in;
 }
 
 .skills p {
@@ -294,7 +299,7 @@ nav {
 
 .portfolio-hero {
   text-align: center;
-  margin: 80px 0;
+  margin: 130px 0 80px;
 }
 
 .portfolio-page {
@@ -348,18 +353,24 @@ nav {
 /* Contact Page */
 
 .contact-woman {
-  height: 500px;
+  height: 450px;
+}
+
+.contact-hero {
+  font-size: 72px;
 }
 
 .ways-to-connect {
   border: 3px solid var(--primary-color);
   border-radius: 8px;
-  padding: 50px 50px 30px 50px;
+  padding: 50px 60px 20px 60px;
   text-align: center;
 }
 
 .contact-box {
   padding: 0;
+  margin-top: 120px;
+  margin-bottom: 40px;
 }
 
 .contact-icons {
@@ -368,7 +379,16 @@ nav {
   justify-content: space-between;
   padding-top: 80px;
   padding-left: 0;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.icon-links {
+  color: var(--text-color);
+}
+
+.icon-links:hover {
+  color: var(--accent-color);
+  transition: 100ms ease-in;
 }
 
 /* Main Page */
@@ -431,6 +451,10 @@ nav {
 
 #my-email {
   text-transform: lowercase;
-  font-size: 42px;
+  font-size: 36px;
   border-radius: 6px;
+}
+
+#my-email:hover {
+  transition: 100ms ease-in;
 }
