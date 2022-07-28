@@ -59,7 +59,6 @@
   h1 {
     text-align: center;
     padding: 0 !important;
-    margin: 0 !important;
   }
 
   #small-screen {
@@ -92,12 +91,12 @@
     border: none !important;
   }
 
-  .app-names {
-    font-size: 30px !important;
+  .portfolio-hero {
+    margin-bottom: 20px !important;
   }
 
-  #portfolio-title {
-    text-align: left !important;
+  .app-names {
+    font-size: 30px !important;
   }
 }
 
@@ -228,8 +227,8 @@ hr {
 /* Work Page */
 
 .portfolio-hero {
-  margin: 50px 0 0 50px;
-  padding: 40px 50px 30px;
+  text-align: center;
+  margin: 80px 0;
 }
 
 .portfolio-page {
