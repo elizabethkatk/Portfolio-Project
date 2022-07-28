@@ -127,6 +127,18 @@ hr {
   color: var(--text-color);
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-left: 0;
+}
+
+li {
+  font-size: 50px;
+}
+
 .hero {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -270,6 +282,23 @@ hr {
   flex-direction: row-reverse;
 }
 
+/* Contact Page */
+
+.contact-woman {
+  height: 500px;
+}
+
+.ways-to-connect {
+  border: 3px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 50px 50px 30px 50px;
+  text-align: center;
+}
+
+.contact-box {
+  padding: 0;
+}
+
 /* Main Page */
 
 #working-woman {
@@ -324,4 +353,12 @@ hr {
   background-color: rgba(113, 160, 165, 0.2);
   color: var(--text-color);
   font-family: var(--paragraph-font);
+}
+
+/* Contact Page */
+
+#my-email {
+  text-transform: lowercase;
+  font-size: 42px;
+  border-radius: 6px;
 }
