@@ -98,6 +98,21 @@
   .app-names {
     font-size: 30px !important;
   }
+
+  .logo {
+    font-size: 16px !important;
+    padding: 3px 7px !important;
+    border: solid 2px var(--text-color) !important;
+  }
+
+  .my-nav-links {
+    line-height: 32px !important;
+    font-size: 14px !important;
+  }
+
+  .my-links {
+    padding: 0 10px !important;
+  }
 }
 
 /* Main Page*/
@@ -147,6 +162,10 @@ nav {
   color: var(--primary-color);
 }
 
+.logo:hover {
+  color: var(--primary-color);
+}
+
 .my-nav-links {
   text-transform: uppercase;
   list-style: none;
@@ -158,7 +177,16 @@ nav {
 .my-links {
   display: inline;
   padding: 0 20px;
-  color: ;
+}
+
+.pages {
+  color: var(--text-color);
+}
+
+.pages:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: 50ms ease-in;
 }
 
 .active {
