@@ -11,20 +11,41 @@
 /* Medium Screen */
 
 @media (max-width: 990px) {
+  .hero {
+    padding-left: 12px !important;
+  }
+
   h1 {
     font-size: 56px !important;
   }
 
-  #small-screen {
-    font-size: 26px;
+  #small-screen-name {
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  .last-name {
+    padding: 0 !important;
   }
 
   #small-screen-hello {
-    font-size: 32px;
+    font-size: 32px !important;
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  #small-screen {
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  #small-screen-description {
+    text-align: center;
+    padding: 0 !important;
   }
 
   #get-in-touch-button {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .contact-me-button {
@@ -51,6 +72,10 @@
   .website-pic {
     height: 200px !important;
   }
+
+  #working-woman {
+    padding: 0 !important;
+  }
 }
 
 /* Small Screen */
@@ -59,21 +84,6 @@
   h1 {
     text-align: center;
     padding: 0 !important;
-  }
-
-  #small-screen {
-    text-align: center;
-    padding: 0;
-  }
-
-  #small-screen-hello {
-    text-align: center;
-    padding: 0;
-  }
-
-  #small-screen-description {
-    text-align: center;
-    padding: 0;
   }
 
   #small-screen-photo {
@@ -89,14 +99,24 @@
 
   .portfolio-page {
     border: none !important;
+    padding-top: 10px !important;
   }
 
   .portfolio-hero {
-    margin-bottom: 20px !important;
+    margin: 100px 0 0 0 !important;
   }
 
   .app-names {
     font-size: 30px !important;
+  }
+
+  .project-box {
+    padding: 20px !important;
+  }
+
+  .launch-button {
+    display: flex;
+    justify-content: center;
   }
 
   .logo {
@@ -194,31 +214,36 @@ nav {
 }
 
 .main-page {
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .hero {
   margin-top: 40px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding-left: 50px;
+}
+
+.last-name {
+  padding-left: 50px;
 }
 
 .hero p {
   font-size: 42px;
   margin-bottom: 0;
-  padding-left: 40px;
+  padding-left: 30px;
   font-weight: bold;
 }
 
 .hero h2 {
-  padding-left: 110px;
-  font-size: 36px;
+  padding-left: 70px;
+  font-size: 23px;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
 .hero h3 {
-  font-size: 20px;
-  padding-left: 45px;
+  font-size: 21px;
+
   padding-top: 25px;
   line-height: 1.5;
   margin-bottom: 30px;
@@ -299,7 +324,7 @@ nav {
 
 .portfolio-hero {
   text-align: center;
-  margin: 130px 0 80px;
+  margin: 130px 0 60px;
 }
 
 .portfolio-page {
@@ -394,7 +419,8 @@ nav {
 /* Main Page */
 
 #working-woman {
-  height: 400px;
+  width: 800px;
+  padding-top: 80px;
 }
 
 #about-button {

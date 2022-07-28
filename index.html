@@ -23,11 +23,11 @@
     <nav class="d-flex justify-content-between navbar fixed-top">
       <a href="/" title="Homepage" class="logo">EK</a>
       <ul class="my-nav-links">
-        <li class="my-links"><a href="/" class="pages">Home</a></li>
+        <li class="active my-links"><a href="/" class="pages">Home</a></li>
         <li class="my-links">
           <a href="/about.html" class="pages" title="About Me">About</a>
         </li>
-        <li class="active my-links">
+        <li class="my-links">
           <a href="/work.html" title="Portfolio" class="pages">Work</a>
         </li>
         <li class="my-links">
@@ -37,9 +37,11 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-sm-9 hero">
+        <div class="col-lg-6 hero">
           <p id="small-screen-hello">Hello! I am</p>
-          <h1 id="small-screen-name">Elizabeth King</h1>
+          <h1 id="small-screen-name">
+            Elizabeth <span class="last-name">King</span>
+          </h1>
           <h2 id="small-screen">Front-End Web Developer</h2>
 
           <h3 id="small-screen-description">
@@ -47,41 +49,13 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud.
           </h3>
+        </div>
+        <div class="col-lg-6">
           <img
             src="/resources/images/developer.svg"
             class="img-fluid"
             id="working-woman"
           />
-        </div>
-        <div class="col-sm-3 nav-links d-none d-lg-block">
-          <a href="/about.html" class="button" id="about-button">About</a>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <a href="/work.html" class="button">Portfolio</a>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <a
-            href="https://www.elizabethkking.com"
-            target="_blank"
-            class="button"
-            id="blog-button"
-            >Blog</a
-          >
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <a href="/contact.html" class="button" id="contact-button">Contact</a>
         </div>
       </div>
     </div>
