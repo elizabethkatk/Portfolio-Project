@@ -127,16 +127,42 @@ hr {
   color: var(--text-color);
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 80px;
-  padding-left: 0;
+nav {
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
 }
 
-li {
-  font-size: 50px;
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  background: linear-gradient(
+    108.7deg,
+    rgb(224, 235, 213) 8.1%,
+    rgb(37, 148, 141) 91.2%
+  );
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: solid 3px var(--text-color);
+  color: var(--primary-color);
+}
+
+.my-nav-links {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 65px;
+}
+
+.my-links {
+  display: inline;
+  padding: 0 20px;
+  color: ;
+}
+
+.active {
+  font-weight: bolder;
 }
 
 .hero {
@@ -306,6 +332,15 @@ li {
 
 .contact-box {
   padding: 0;
+}
+
+.contact-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-left: 0;
+  font-size: 50px;
 }
 
 /* Main Page */
