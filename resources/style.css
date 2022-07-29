@@ -11,12 +11,18 @@
 /* Medium Screen */
 
 @media (max-width: 990px) {
+  h1 {
+    font-size: 56px !important;
+  }
+
   .hero {
     padding-left: 12px !important;
   }
 
-  h1 {
-    font-size: 56px !important;
+  #small-screen-hello {
+    font-size: 32px !important;
+    text-align: center;
+    padding: 0 !important;
   }
 
   #small-screen-name {
@@ -25,12 +31,6 @@
   }
 
   .last-name {
-    padding: 0 !important;
-  }
-
-  #small-screen-hello {
-    font-size: 32px !important;
-    text-align: center;
     padding: 0 !important;
   }
 
@@ -44,12 +44,16 @@
     padding: 0 !important;
   }
 
-  #get-in-touch-button {
-    font-size: 16px !important;
+  #working-woman {
+    padding: 0 !important;
   }
 
   .contact-me-button {
     text-align: center;
+  }
+
+  #get-in-touch-button {
+    font-size: 16px !important;
   }
 
   #contact-button-small {
@@ -71,10 +75,6 @@
 
   .website-pic {
     height: 200px !important;
-  }
-
-  #working-woman {
-    padding: 0 !important;
   }
 
   .contact-woman {
@@ -105,6 +105,21 @@
 /* Small Screen */
 
 @media (max-width: 620px) {
+  .logo {
+    font-size: 16px !important;
+    padding: 3px 5px !important;
+    border: solid 2px var(--text-color) !important;
+  }
+
+  .my-nav-links {
+    line-height: 32px !important;
+    font-size: 14px !important;
+  }
+
+  .my-links {
+    padding: 0 10px !important;
+  }
+
   h1 {
     text-align: center;
     padding: 0 !important;
@@ -143,21 +158,6 @@
     justify-content: center;
   }
 
-  .logo {
-    font-size: 16px !important;
-    padding: 3px 5px !important;
-    border: solid 2px var(--text-color) !important;
-  }
-
-  .my-nav-links {
-    line-height: 32px !important;
-    font-size: 14px !important;
-  }
-
-  .my-links {
-    padding: 0 10px !important;
-  }
-
   .contact-woman {
     width: 400px;
   }
@@ -189,8 +189,6 @@
   }
 }
 
-/* Main Page*/
-
 body {
   font-family: var(--paragraph-font);
   color: var(--text-color);
@@ -220,6 +218,8 @@ nav {
   background-color: var(--secondary-color);
   padding: 10px 15px;
 }
+
+/* Nav Bar */
 
 .logo {
   font-weight: bold;
@@ -267,6 +267,8 @@ nav {
   font-weight: bolder;
 }
 
+/* Main Page */
+
 .main-page {
   margin-top: 70px;
 }
@@ -307,39 +309,33 @@ nav {
   padding-left: 0;
 }
 
-.nav-links {
-  text-align: center;
-  text-decoration: none;
-  text-transform: lowercase;
-  margin-top: 130px;
-  font-size: 26px;
-  padding-left: 70px;
-}
-
-.button {
-  background-color: var(--accent-color);
-  padding: 20px 30px;
-  border-radius: 20px;
-  color: var(--text-color);
-  font-family: var(--header-font);
-}
-
-.button:hover {
-  color: var(--priamary-color);
-  opacity: 0.6;
-  transition: 100ms ease-in;
-}
-
 .skills p {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.footer {
-  margin: 30px;
-  padding: 10px 10px 0 10px;
-  font-size: 12px;
+#working-woman {
+  width: 800px;
+  padding-top: 80px;
+}
+
+#design-woman {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#coding-woman {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#mobile-projects {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*About Me */
@@ -362,17 +358,48 @@ nav {
   padding: 20px;
 }
 
+.button {
+  background-color: var(--accent-color);
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: var(--text-color);
+  font-family: var(--header-font);
+}
+
+.button:hover {
+  color: var(--priamary-color);
+  opacity: 0.6;
+  transition: 100ms ease-in;
+}
+
 .get-in-touch-button {
   font-size: 28px;
   margin-left: 700px;
   padding: 20px 60px;
   border-radius: 30px;
-  color: var(--text-color);
 }
 
 .experience-buttons {
   display: flex;
   justify-content: space-evenly;
+}
+
+#projects-button {
+  font-size: 36px;
+  padding: 80px 50px;
+  margin-bottom: 30px;
+  background-color: rgba(113, 160, 165, 0.2);
+  color: var(--text-color);
+  font-family: var(--paragraph-font);
+}
+
+#resume-button {
+  font-size: 36px;
+  padding: 80px 50px;
+  margin-bottom: 30px;
+  background-color: rgba(113, 160, 165, 0.2);
+  color: var(--text-color);
+  font-family: var(--paragraph-font);
 }
 
 /* Work Page */
@@ -475,65 +502,6 @@ nav {
   transition: 100ms ease-in;
 }
 
-/* Main Page */
-
-#working-woman {
-  width: 800px;
-  padding-top: 80px;
-}
-
-#about-button {
-  padding: 20px 57px;
-}
-
-#blog-button {
-  padding: 20px 67px;
-}
-
-#contact-button {
-  padding: 20px 43px;
-}
-
-#design-woman {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-#coding-woman {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-#mobile-projects {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* About Me */
-
-#projects-button {
-  font-size: 36px;
-  padding: 80px 50px;
-  margin-bottom: 30px;
-  background-color: rgba(113, 160, 165, 0.2);
-  color: var(--text-color);
-  font-family: var(--paragraph-font);
-}
-
-#resume-button {
-  font-size: 36px;
-  padding: 80px 50px;
-  margin-bottom: 30px;
-  background-color: rgba(113, 160, 165, 0.2);
-  color: var(--text-color);
-  font-family: var(--paragraph-font);
-}
-
-/* Contact Page */
-
 #my-email {
   text-transform: lowercase;
   font-size: 36px;
@@ -546,17 +514,16 @@ nav {
 
 /* Footer */
 
+.footer {
+  margin: 30px;
+  padding: 10px 10px 0 10px;
+  font-size: 12px;
+}
+
 footer p {
   text-align: center;
   font-size: 12px;
   margin-bottom: 20px;
-}
-
-.footer-button {
-  font-size: 16px;
-  padding: 10px 15px;
-  color: var(--text-color);
-  text-transform: uppercase;
 }
 
 .footer-social-media {
