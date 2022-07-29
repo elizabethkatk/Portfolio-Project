@@ -76,6 +76,30 @@
   #working-woman {
     padding: 0 !important;
   }
+
+  .contact-woman {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    text-align: center !important;
+    padding-top: 80px !important;
+  }
+
+  .contact-hero {
+    padding-bottom: 30px !important;
+    padding-left: 0 !important;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: space-around !important;
+  }
+
+  #my-email {
+    padding: 20px 100px;
+  }
 }
 
 /* Small Screen */
@@ -132,6 +156,32 @@
 
   .my-links {
     padding: 0 10px !important;
+  }
+
+  .contact-woman {
+    width: 450px;
+  }
+
+  .ways-to-connect {
+    border: none !important;
+  }
+
+  #my-email {
+    padding: 20px !important;
+    font-size: 28px !important;
+  }
+
+  .contact-hero {
+    padding-bottom: 0 !important;
+    font-size: 48px !important;
+  }
+
+  .contact-info {
+    padding-top: 0 !important;
+  }
+
+  .contact-icons {
+    padding-top: 60px !important;
   }
 }
 
