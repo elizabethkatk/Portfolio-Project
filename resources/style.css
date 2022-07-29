@@ -183,6 +183,10 @@
   .contact-icons {
     padding-top: 60px !important;
   }
+
+  .contact-box {
+    margin-top: 0 !important;
+  }
 }
 
 /* Main Page*/
@@ -427,6 +431,10 @@ nav {
 }
 
 /* Contact Page */
+
+.contact-row {
+  margin-top: 45px;
+}
 
 .contact-woman {
   height: 450px;
